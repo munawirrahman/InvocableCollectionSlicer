@@ -19,7 +19,7 @@ public class InvocableCollectionSlicerTest {
         List<InvocableCollectionSlicer.Response> listResult = InvocableCollectionSlicer.Invoke(listRequest);  
         Test.stopTest();
         
-        //should return record between con1 and con2
+        //should return record between con1 and con3
         System.assertEquals(con2, listResult[0].CollectionOfRecordsSliced[0]);
     }
 
